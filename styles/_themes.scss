@@ -10,15 +10,15 @@ $themes: (
   'light': (
     'primary': map.get($colors, 'white'),
     'secondary': map.get($colors, 'black'),
-    'contrast': map.get($colors, 'pink'),
+    'contrast': map.get($colors, 'red'),
   ),
   'dark': (
     'primary': map.get($colors, 'black'),
     'secondary': map.get($colors, 'white'),
-    'contrast': map.get($colors, 'pink'),
+    'contrast': map.get($colors, 'red'),
   ),
   'contrast': (
-    'primary': map.get($colors, 'pink'),
+    'primary': map.get($colors, 'red'),
     'secondary': map.get($colors, 'black'),
     'contrast': map.get($colors, 'white'),
   ),

@@ -30,7 +30,7 @@ export function CustomHead({ title = '', description, image, keywords }) {
           name="keywords"
           content={keywords && keywords.length ? keywords.join(',') : keywords}
         />
-        <meta name="author" content="darkroom.engineering" />
+        <meta name="author" content="Black Byt3" />
         <meta name="referrer" content="no-referrer" />
         <meta name="format-detection" content="telephone=no" />
         <meta name="geo.region" content="US" />
@@ -55,7 +55,7 @@ export function CustomHead({ title = '', description, image, keywords }) {
           href="/favicon-16x16.png"
         />
         <link rel="manifest" href="/site.webmanifest" />
-        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ff98a2" />
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ff0000" />
         <meta name="msapplication-TileColor" content="#000000" />
         <meta name="theme-color" content="#ffffff" />
         <link rel="icon" href="/favicon.ico" />
@@ -73,7 +73,7 @@ export function CustomHead({ title = '', description, image, keywords }) {
             {
               url: image
                 ? image.url
-                : 'https://lenis.darkroom.engineering/og.png',
+                : 'https://blackbyt3.com/og.png',
               width: image ? image.width : 1200,
               height: image ? image.height : 630,
               alt: title,
@@ -84,7 +84,7 @@ export function CustomHead({ title = '', description, image, keywords }) {
           site_name: '',
         }}
         twitter={{
-          handle: '@darkroomdevs',
+          handle: '@blackbyt3',
           cardType: 'summary_large_image',
         }}
       />
